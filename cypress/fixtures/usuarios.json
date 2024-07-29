@@ -1,0 +1,34 @@
+{
+    "usuarios": [
+      {
+        "name": "Peter Jason Quill",
+        "email": "peter.quill@alura.com.br",
+        "password": "Senha12345"
+      },
+      {
+        "name": "Gamora Zen Whoberi Ben Titan",
+        "email": "gamora@alura.com",
+        "password": "Senha123456"
+      },
+      {
+        "name": "Rocket Raccoon",
+        "email": "rocket.raccoon@alura.com",
+        "password": "Senha1234567"
+      },
+      {
+        "name": "Groot",
+        "email": "groot@alura.com.br",
+        "password": "Senha12345678"
+      },
+      {
+        "name": "Drax",
+        "email": "drax@alura.com",
+        "password": "Senha123456789"
+      },
+      {
+        "name": "Yondu Udonta",
+        "email": "youndu@alura.com.br",
+        "password": "Senha1234567890"
+      }
+    ]
+  }

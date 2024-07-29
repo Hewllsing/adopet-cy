@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-07-18T13:24:23.495Z",
+    "end": "2024-07-18T13:24:26.297Z",
+    "duration": 2802,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "eadb2a5b-422b-4348-a5c4-7aec7611f24c",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Exercicios-Alura\\ex05-teste-login-diferente.cy.js",
+      "file": "cypress\\e2e\\Exercicios-Alura\\ex05-teste-login-diferente.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "fe1b3c55-bd20-4db7-be31-5105c5077277",
+          "title": "Página principal AdoPet",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Teste o login com um fluxo diferente: Visite a página principal do Adopet, clique no botão de ícone de mensagem no header e escreva nome e senha válidos na página de login",
+              "fullTitle": "Página principal AdoPet Teste o login com um fluxo diferente: Visite a página principal do Adopet, clique no botão de ícone de mensagem no header e escreva nome e senha válidos na página de login",
+              "timedOut": null,
+              "duration": 1492,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('.header__message').click();\ncy.get('[data-test=\"input-loginEmail\"]').type('ana@email.com');\ncy.get('[data-test=\"input-loginPassword\"]').type('Senha123');\ncy.get('[data-test=\"submit-button\"]').click();",
+              "err": {},
+              "uuid": "0b397010-a04d-4d1f-a2b9-af228b388fe7",
+              "parentUUID": "fe1b3c55-bd20-4db7-be31-5105c5077277",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0b397010-a04d-4d1f-a2b9-af228b388fe7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1492,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
